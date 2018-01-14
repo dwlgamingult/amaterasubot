@@ -74,14 +74,6 @@ module.exports = client => {
   var b = schedule.scheduleJob(rule, function() {
     client.channels.get('290857568535052298').send('<@&291032633666699265> Gem quests!');
   })
-  
-  rule.dayOfWeek = 0;
-  rule.hour = 13;
-  rule.minute = 21;
-
-  var a = schedule.scheduleJob(rule, function() {
-    client.channels.get('290857568535052298').send('Test');
-  })
 
   console.log('Oh captain My Captain');
 };
