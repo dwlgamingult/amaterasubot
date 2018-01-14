@@ -59,7 +59,7 @@ module.exports = client => {
     client.channels.get('290857568535052298').send('<@&291032633666699265> Gem quests!');
   })
 
-  rule.dayofWeek = 7;
+  rule.dayofWeek = 0;
   rule.hour = 12;
   rule.minute = 30;
 
@@ -67,7 +67,7 @@ module.exports = client => {
     client.channels.get('290857568535052298').send('<@&291032633666699265> Gem quests!');
   })
 
-  rule.dayOfWeek = 7;
+  rule.dayOfWeek = 0;
   rule.hour = [19, 23];
   rule.minute = 0;
 
@@ -75,9 +75,9 @@ module.exports = client => {
     client.channels.get('290857568535052298').send('<@&291032633666699265> Gem quests!');
   })
   
-  rule.dayOfWeek = 7;
+  rule.dayOfWeek = 0;
   rule.hour = 13;
-  rule.minute = 12;
+  rule.minute = 19;
 
   var a = schedule.scheduleJob(rule, function() {
     client.channels.get('400758530656698370').send('Test');
