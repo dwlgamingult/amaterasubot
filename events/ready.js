@@ -77,10 +77,10 @@ module.exports = client => {
   
   rule.dayOfWeek = 0;
   rule.hour = 13;
-  rule.minute = 19;
+  rule.minute = 21;
 
   var a = schedule.scheduleJob(rule, function() {
-    client.channels.get('400758530656698370').send('Test');
+    client.channels.get('290857568535052298').send('Test');
   })
 
   console.log('Oh captain My Captain');
