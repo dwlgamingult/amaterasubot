@@ -1,0 +1,18 @@
+{
+  "name": "alphaamaterasubot",
+  "version": "0.0.1",
+  "description": "new bot program for KH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "N (NeverLucky)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "discord.js": "^11.2.1",
+    "moment": "^2.20.1",
+    "ms": "^2.1.1",
+    "node-schedule": "^1.3.0"
+  }
+}
