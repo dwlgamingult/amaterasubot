@@ -1,5 +1,5 @@
 exports.run = (client, message) => {
-  message.channel.send('<:blobpeekknife:389527388284911616>');
+  message.channel.send('<:disgustedamon:402314262594191360>');
 };
 
 exports.conf = {
