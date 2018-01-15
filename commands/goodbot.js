@@ -1,5 +1,5 @@
 exports.run = (client, message) => {
-  message.channel.send('Thankies <:blobmelt:381057783321067540>');
+  message.channel.send('Thankies <:blobmelt:402326065965432857>');
 };
 
 exports.conf = {
