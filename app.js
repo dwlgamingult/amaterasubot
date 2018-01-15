@@ -48,7 +48,8 @@ client.reload = command => {
 
 client.elevation = message => {
   /* This function should resolve to an ELEVATION level which
-     is then sent to the command handler for verification*/
+     is then sent to the command handler for verification
+     I am not currently making use of this as I do not want to give the bot any real moderation ability*/
   let permlvl = 0;
   const mod_role = message.guild.roles.find('name', settings.modrolename);
   if (mod_role && message.member.roles.has(mod_role.id)) permlvl = 2;
